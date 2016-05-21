@@ -12,12 +12,17 @@ body, html{
 #alert{
 	text-align: center;
 	padding-top: 50px;
+	padding-bottom: 20px;
 	color: white;
 }
 
 #alert a:hover{
 	text-decoration: none;
 }
+
+#img-home{
+		width: 30%;
+	}
 
 #aviso h1{
 	color: white;
@@ -70,20 +75,68 @@ body, html{
 
 /*TABLET PAISAGEM*/
 @media (max-width: 991px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
 
+	#img-home{
+		width: 50%;
+	}
 }
 
 /*TABLET RETRATO*/
 @media (max-width: 768px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
 
+	#img-home{
+		width: 50%;
+	}
 }
 
 /*CELULAR PAISAGEM*/
 @media (max-width: 767px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
 
+	#img-home{
+		width: 50%;
+	}
 }
 
 /*CELULAR RETRATO*/
 @media (max-width: 479px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
 
+	#img-home{
+		width: 50%;
+	}
 }
